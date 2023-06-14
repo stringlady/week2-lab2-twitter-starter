@@ -1,6 +1,6 @@
 import AvatarIcon from "../AvatarIcon/AvatarIcon"
 
-export default function TweetInput(props) {
+export default function TweetInput(value, handleOnChange) {
   return (
     <div className="tweet-textarea">
       <AvatarIcon />
